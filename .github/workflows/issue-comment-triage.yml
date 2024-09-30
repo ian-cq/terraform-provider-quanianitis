@@ -3,8 +3,10 @@
 name: Issue Comment Triage
 
 on:
-  issue_comment:
-    types: [created]
+  release: 
+    types: [published]
+#   issue_comment:
+#     types: [created]
 
 jobs:
   issue_comment_triage:
